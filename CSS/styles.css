@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container{
+    background-color: lightpink;
+    position: relative;
+    padding-top: 100px;
+}
+/* dynamic font-size units (em, %) equivalence: 100% == 16px == 1em == 1rem
+but for % and em units, if we change font-size in body tag which is the parent tag of every content, 
+the overall size of child tags changes too. so to avoid this it is recommended to use rem, which is root-em. 
+this solves the purpose of giving dynamic sizing to our content but remains unaffected by any change within the body tag */
+h1{
+    margin: 50px auto 20px auto;
+    font-family: 'Sacramento', cursive; 
+    font-size: 6rem;
+    color: #5B3A3F;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #5B3A3F;
+    line-height: 2;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #737071;
+    line-height: 2;
+    font-weight: bolder;
+}
+
+p{
+    line-height: 2;
+}
+a{
+    color: #5B3A3F;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color: #737071;
+}
+
+.para1{
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 2;
+    color: #8A7175;
+}
+.nerdy-pic{
+    margin: 40px auto 20px auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+/* below snippet to target just the child tags in the parent class*/
+.skill-row img{
+    margin-left: auto;
+    margin-right: 30px;
+    display: block;
+    width: 25%;  
+}
+.computer-gif{
+    margin-bottom: 60px;
+    float: left;
+}
+.food-gif{
+    float: right;
+}
+.skills{
+    padding-bottom: 50px;
+}
+hr{
+    
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #E2E2DC;
+    border-width: 6px;
+    width: 4%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.intro{
+    margin: auto;
+    width: 50%;
+}
+
+.bottom-container{
+    background-color: lightpink;
+    height: 100px;
+    padding-top: 50px;
+}
+.contact-me{
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px
+}
+.nerdy-pic{
+    size: 20%;
+}
+.profile{
+    height: 400px;
+}
+.copyright{
+    color: #737071;
+    font-size: 0.8rem;
+    padding: 20px 0;
+}
